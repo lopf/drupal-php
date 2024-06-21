@@ -32,6 +32,7 @@ RUN set -eux; \
 		pdo_mysql \
 		pdo_pgsql \
 		zip \
+		bcmath \
 	; \
 	\
 	pecl install redis-5.3.7; \
